@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello World</title>
+</head>
+<body>
+	<table>
+		<tr><th>S.No</th><th>Name</th><th>Branch</th></tr>
+		{% for i in dummydata %}
+		<tr><td>{{i.s_no}}</td><td>{{i.name}}</td><td>{{i.branch}}</td></tr>
+		{% endfor %} 
+	</table>
+
+</body>
+</html>

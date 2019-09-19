@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title></head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+<body class="big_success" align="center">
+
+<div class="container">
+<form action="" method="post">
+<div><h1 align="center" >Form</h1>
+<div>
+<label for="sno">Sno:</label><input type="text" name="Sno:" placeholder="Sno" class="form-control" ></br>
+</div><div>
+<label for="name">Name:</label><input type="text" name="name" class="form-control" required='required'></br>
+</div><div>
+<label for="surname">Surname:</label><input type="text" name="surname" class="form-control" required='required'></br>
+</div><div>
+<label for="mobile">Mobile:</label><input type="text" name="mobile" class="form-control" required='required'></br>
+</div><div>
+<label for="email">Email:</label><input type="text" name="email" class="form-control" id="email" required='required'></br>
+</div><div>
+<label for="branch">Branch:</label><input type="text" name="branch" class="form-control" required='required'></br>
+</div><div>
+<label for="role">Role:</label><input type="text" name="role" class="form-control" required='required'></br>
+</div>
+<div>
+<button align='center' type="submit" class="btn btn-primary">Submit</button>
+<button align='center' type="cancel" class="btn btn-primary"><a href ="{{url_for('showData')}}" style="color:white; underline:none;">Cancel</a></button>
+</div>
+</form>
+
+<body>
+</html>
